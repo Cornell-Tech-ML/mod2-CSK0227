@@ -193,8 +193,52 @@ class TensorTrain:
 
 
 if __name__ == "__main__":
+    # PTS = 50
+    # HIDDEN = 2
+    # RATE = 0.5
+    # data = minitorch.datasets["Simple"](PTS)
+    # TensorTrain(HIDDEN).train(data, RATE)
+
+    # #Simple
+    # PTS = 50
+    # HIDDEN = 8
+    # RATE = 0.1
+    # data = minitorch.datasets["Simple"](PTS)
+    # TensorTrain(HIDDEN).train(data, RATE)
+
+    # #Diag
+    # PTS = 50
+    # HIDDEN = 8
+    # RATE = 0.1
+    # data = minitorch.datasets["Diag"](PTS)
+    # TensorTrain(HIDDEN).train(data, RATE)
+
+    # #Split
+    # PTS = 50
+    # HIDDEN = 8
+    # RATE = 0.1
+    # data = minitorch.datasets["Split"](PTS)
+    # TensorTrain(HIDDEN).train(data, RATE)
+
+    # #Xor
+    # PTS = 50
+    # HIDDEN = 8
+    # RATE = 0.1
+    # data = minitorch.datasets["Xor"](PTS)
+    # TensorTrain(HIDDEN).train(data, RATE)
+
+    # #Circle
+    # PTS = 50
+    # HIDDEN = 8
+    # RATE = 0.1
+    # data = minitorch.datasets["Circle"](PTS)
+    # TensorTrain(HIDDEN).train(data, RATE)
+
+    #Spiral
     PTS = 50
-    HIDDEN = 2
-    RATE = 0.5
-    data = minitorch.datasets["Simple"](PTS)
+    HIDDEN = 8
+    RATE = 0.1
+    data = minitorch.datasets["Spiral"](PTS)
     TensorTrain(HIDDEN).train(data, RATE)
+
+
